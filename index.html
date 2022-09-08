@@ -25,14 +25,16 @@
                 <img src="imagens/exclamacao.png"><p>Apenas letras minúsculas e sem acento.</p>
             </div>
 
-            <input type="button" value="Criptografar" class="botoes">
-            <input type="button" value="Descriptografar" class="botoes">
+            <input type="button" value="Criptografar" class="botoes" onclick="botaoEncriptar()">
+
+            <input type="button" value="Descriptografar" class="botoes"
+            onclick="botaoDesencriptar()">
         </div>
 
         <div class="caixa-area">
             <textarea type="text" placeholder="O texto criptografado ou descriptogrado irá aparecer aqui..."
                 class="caixa-resultado"></textarea>
-            <input type="button" value="Copiar" class="botoes">
+            <input type="button" value="Copiar" class="botoes" onclick="copiar()" >
         </div>
     </main>
 
@@ -43,6 +45,7 @@
             <a href="https://www.linkedin.com/in/luizafavacho-dev" target="_blank"><img src="imagens/linkedin.png"></a>
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
